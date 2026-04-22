@@ -30,7 +30,6 @@ customers to discover nearby salons, book services, and manage appointments.
 src/
 ├── controllers/     # Handles HTTP requests and responses
 ├── services/        # Business logic layer
-├── repositories/    # Database interaction layer
 ├── models/          # Mongoose schemas
 ├── middleware/      # Auth, error handling, validation
 ├── routes/          # API route definitions
@@ -46,8 +45,6 @@ Routes
 Controllers        ← Handles req/res
 ↓
 Services          ← Business logic
-↓
-Repositories        ← DB queries
 ↓
 MongoDB
 
